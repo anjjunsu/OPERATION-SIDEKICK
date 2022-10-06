@@ -1,7 +1,11 @@
-const title = document.querySelector("div.ddiv:first-child h1");
 
-function handleTitleClick() {
-    console.log("title was clicked");
-}
+const signInForm = document.getElementsById("sign-in-form");
+const signInInput = signInForm.querySelector("input");
+const signInButton = signInForm.querySelector("button");
 
-title.addEventListener("click", handleTitleClick);
+function onSignInClick() {
+    const username = signInInput.value;
+    
+};
+
+signInButton.addEventListner("click", onSignInClick);
