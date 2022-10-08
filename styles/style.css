@@ -1,0 +1,9 @@
+.hidden {
+    display: none;
+}
+
+.bg-img {
+    background-size: cover;
+    repeat: no-repeat;
+}
+

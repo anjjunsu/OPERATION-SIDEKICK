@@ -1,3 +1,4 @@
+const IMGBOX = "bg-img";
 const images = [
     "0.jpg",
     "1.jpg",
@@ -11,7 +12,9 @@ const images = [
     "9.jpg"
 ];
 
+const bg = document.body;
 const randomImg = images[Math.floor(Math.random() * images.length)];
 const imgUrl = `url('img/${randomImg}')`;
-document.body.style.backgroundImage = imgUrl;
+bg.classList.add(IMGBOX);
+bg.style.backgroundImage = imgUrl;
 
