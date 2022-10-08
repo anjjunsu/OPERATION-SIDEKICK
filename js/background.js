@@ -12,9 +12,6 @@ const images = [
 ];
 
 const randomImg = images[Math.floor(Math.random() * images.length)];
-const bgImg = document.createElement("img");
-
-bgImg.src = `img/${randomImg}`;
-
-document.body.appendChild(bgImg);
+const imgUrl = `url('img/${randomImg}')`;
+document.body.style.backgroundImage = imgUrl;
 
