@@ -1,4 +1,4 @@
-const OPEN_WEATHER_API_KEY = "8becec00c5762ae5f3645a25f577006f";
+const OPEN_WEATHER_API_KEY = "YOUR API KEY";
 
 function onGeoLocationSuccess(location) {
     const latitude = location.coords.latitude;
